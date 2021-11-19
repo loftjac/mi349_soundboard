@@ -1,9 +1,10 @@
-var blip = new Audio();
-blip.src = "blip.wav"
+// var blip = new Audio();
+// blip.src = "blip.wav"
 
-onmousedown ="blip.play()"
+// onmousedown ="blip.play()"
 
-function playMusic(){
-    var music = new Audio('musicfile.mp3');
+function playMusic(audioString){
+    console.log(audioString)
+    var music = new Audio(audioString);
     music.play();
-    }
+}
